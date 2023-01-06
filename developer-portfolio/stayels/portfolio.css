@@ -112,10 +112,6 @@ nav li{
     margin-bottom: 20px;
 }
 /*resume*/
-.resume-conten{
-    display: flex;
-    gap: 20px;
-}
 .resume .title{
    font-weight: 700px;
    font-size: 25px;
@@ -132,7 +128,18 @@ nav li{
 .resume .description{
   color: #757575;
 }
+.resume-conten{
+    display: flex;
+    gap: 20px;
+}
 .resume-item{
     margin-top: 30px;
     margin-bottom: 30px;
+}
+/*contact stayels*/
+.contact .section-title{
+  text-align: left;
+}
+.contact{
+    display: flex;
 }
